@@ -1,0 +1,27 @@
+
+.tableContainer {
+  max-width: 600px;
+  margin: auto;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+}
+
+.tableHeader{
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem;
+  border-bottom: 1px solid #ddd;
+}
+
+.tableHeader {
+  background-color: #e0e0e0;
+  font-weight: bold;
+}
+
+.tableCell {
+  flex: 1;
+  margin: 0;
+  text-align: center;
+}
